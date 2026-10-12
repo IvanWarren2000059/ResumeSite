@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head') %>
+</head>
+<body>
+  <%- include('partials/nav') %>
+
+  <main class="page">
+    <div class="chapter">
+      <span class="chapter__numeral">III.</span>
+      <span class="chapter__title">Hardware Experience</span>
+    </div>
+
+    <h1 class="title">Working with hardware</h1>
+    <p class="lede">
+      Before software, most of my hands-on time was spent diagnosing and repairing physical
+      systems. A short walkthrough and a few reference photos from that work are below.
+    </p>
+
+    <div class="divider divider--label"><h2>Walkthrough</h2></div>
+    <div class="plate" style="aspect-ratio: 16/9;">
+      <!-- Replace src with your uploaded video (YouTube/Drive embed, or a local .mp4 in /public/assets) -->
+      <video controls poster="">
+        <source src="/assets/hardware/demo-reel.mp4" type="video/mp4" />
+        Your browser doesn't support embedded video.
+      </video>
+    </div>
+    <p class="plate-caption">
+      Swap the file above for your own clip, or replace the &lt;video&gt; tag with an
+      &lt;iframe&gt; embed if you're hosting on YouTube or Drive instead.
+    </p>
+
+    <div class="divider divider--label"><h2>Field photos</h2></div>
+    <div class="gallery">
+      <div>
+        <div class="plate"><div class="plate__placeholder">Diagnostics bench</div></div>
+        <p class="plate-caption">diagnostics-bench.jpg</p>
+      </div>
+      <div>
+        <div class="plate"><div class="plate__placeholder">Soldering station</div></div>
+        <p class="plate-caption">soldering-station.jpg</p>
+      </div>
+      <div>
+        <div class="plate"><div class="plate__placeholder">Cable run</div></div>
+        <p class="plate-caption">cable-run.jpg</p>
+      </div>
+      <div>
+        <div class="plate"><div class="plate__placeholder">Panel rewire</div></div>
+        <p class="plate-caption">panel-rewire.jpg</p>
+      </div>
+      <div>
+        <div class="plate"><div class="plate__placeholder">Multimeter test</div></div>
+        <p class="plate-caption">multimeter-test.jpg</p>
+      </div>
+      <div>
+        <div class="plate"><div class="plate__placeholder">Install site</div></div>
+        <p class="plate-caption">install-site.jpg</p>
+      </div>
+    </div>
+   
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

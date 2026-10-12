@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head') %>
+</head>
+<body>
+  <%- include('partials/nav') %>
+
+  <main class="page">
+    <div class="chapter">
+      <span class="chapter__numeral">II.</span>
+      <span class="chapter__title">Systems Developed</span>
+    </div>
+
+    <h1 class="title">Systems I've built</h1>
+    <p class="lede">
+      A working demo you can open right in the browser, and a few smaller apps you can
+      download and run yourself. Source and setup notes are linked with each one.
+    </p>
+
+    <div class="dossier">
+      <article class="dossier__entry">
+        <span class="dossier__numeral">i.</span>
+        <h3>Mock Payroll System</h3>
+        <p>
+          A self-contained payroll web app — employee records, hours, deductions, and
+          payslip generation — built to practice full end-to-end system design rather
+          than a single tutorial feature.
+        </p>
+        <p class="dossier__stack">Node.js — Express — EJS — SQLite</p>
+        <div class="dossier__actions">
+          <!-- Opens the running app in a new tab. Point this at wherever the
+               payroll app is actually deployed, or leave it on /payroll to
+               use the built-in stub route. -->
+          <a href="/payroll" target="_blank" rel="noopener" class="btn btn--primary">
+            Open live demo
+          </a>
+          <a href="#" class="btn btn--ghost">View source</a>
+        </div>
+        <div class="dossier__plate">
+          <div class="plate">
+            <div class="plate__placeholder">Screenshot — payroll dashboard</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="dossier__entry">
+        <span class="dossier__numeral">ii.</span>
+        <h3>Project name</h3>
+        <p>One or two sentences on what this app does and the problem it solves.</p>
+        <p class="dossier__stack">Tech — Tech — Tech</p>
+        <div class="dossier__actions">
+          <!-- Replace with your Google Drive share link for the downloadable build -->
+          <a href="#" target="_blank" rel="noopener" class="btn btn--primary">Download app</a>
+          <a href="#" class="btn btn--ghost">View source</a>
+        </div>
+        <div class="dossier__plate">
+          <div class="plate">
+            <div class="plate__placeholder">Screenshot placeholder</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="dossier__entry">
+        <span class="dossier__numeral">iii.</span>
+        <h3>Project name</h3>
+        <p>One or two sentences on what this app does and the problem it solves.</p>
+        <p class="dossier__stack">Tech — Tech</p>
+        <div class="dossier__actions">
+          <a href="#" target="_blank" rel="noopener" class="btn btn--primary">Download app</a>
+          <a href="#" class="btn btn--ghost">View source</a>
+        </div>
+        <div class="dossier__plate">
+          <div class="plate">
+            <div class="plate__placeholder">Screenshot placeholder</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

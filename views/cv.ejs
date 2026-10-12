@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head') %>
+</head>
+<body>
+  <%- include('partials/nav') %>
+
+  <main class="page">
+    <div class="chapter">
+      <span class="chapter__numeral">IV.</span>
+      <span class="chapter__title">CV</span>
+    </div>
+
+    <div class="cv-header">
+      <div>
+        <h1 class="title" style="font-size: 2.1rem;"><%= site.name %></h1>
+        <p class="lede" style="margin-top: 0.5rem;"><%= site.role %> — formerly Assistant Field Service Technician</p>
+      </div>
+  <a href="/assets/files/CV.pdf" download="Ivan-Warren-Lontoc-CV.pdf" class="btn btn--primary">
+  Download CV (PDF)
+</a>
+    </div>
+
+    <div class="divider divider--label"><h2>Summary</h2></div>
+    <p>
+      Recent graduate moving into software development after several months as a
+      Assistant Field Service Technician. Comfortable working close to the metal and
+      just as comfortable in code — used to reading manuals, isolating faults, and
+      documenting what was done. Looking for a junior developer role where that
+      troubleshooting habit is useful.
+    </p>
+
+    <div class="divider divider--label"><h2>Experience</h2></div>
+    <div class="timeline">
+      <div class="timeline__entry">
+        <span class="timeline__when">2026 — Present</span>
+        <div class="timeline__body">
+          <h3>Company / Role</h3>
+          <span class="timeline__role">Assistant Field Service Technician</span>
+          <ul>
+            <li>Add a specific responsibility or outcome here.</li>
+            <li>Add another — quantify it where you can (uptime, tickets closed, etc.).</li>
+            <li>Add a third, ideally one that shows troubleshooting or process improvement.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider divider--label"><h2>Projects</h2></div>
+    <p>
+      See <a href="/systems" style="color: var(--oxblood-bright); border-bottom: 1px solid var(--hairline-strong);">Systems Developed</a>
+      for the Mock Payroll System and other builds, with live demos and downloads.
+    </p>
+
+    <div class="divider divider--label"><h2>Education</h2></div>
+    <div class="timeline">
+      <div class="timeline__entry">
+        <span class="timeline__when">2020 — 2024</span>
+        <div class="timeline__body">
+          <h3>Bachelor of Science in Information Technology</h3>
+          <span class="timeline__role">University of Cabuyao (Formerly known as Pamantasan ng Cabuyao)</span>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

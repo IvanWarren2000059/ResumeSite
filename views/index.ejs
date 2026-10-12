@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head') %>
+</head>
+<body>
+  <%- include('partials/nav') %>
+
+  <main class="page">
+    <div class="chapter">
+      <span class="chapter__numeral">I.</span>
+      <span class="chapter__title">Home</span>
+    </div>
+
+    <h1 class="title"><%= site.name %></h1>
+    <p class="lede">
+      <%= site.role %>. Before coding, I kept the hardware running — now I bring the same
+      habit of tracing a problem to its root cause into building software.
+    </p>
+
+    <dl class="facts">
+      <div>
+        <dt>Based in</dt>
+        <dd><%= site.location %></dd>
+      </div>
+      <div>
+        <dt>Looking for</dt>
+        <dd>Junior developer roles</dd>
+      </div>
+      <div>
+        <dt>Background</dt>
+        <dd>Assistant Field Service Technician</dd>
+      </div>
+    </dl>
+
+    <div class="cta-row">
+      <a href="/systems" class="btn btn--primary">View systems developed</a>
+      <a href="/cv" class="btn btn--ghost">Read my CV</a>
+    </div>
+
+    <div class="divider"><span class="divider__mark">&#10022;</span></div>
+
+    <p style="font-size: 1rem;">
+      I spent my early career fixing and maintaining physical equipment — the kind of work
+      where you can't guess, you have to isolate the fault and prove it. After finishing my
+      degree, I've been applying that same discipline to writing software: reading
+      documentation closely, testing assumptions, and building things that hold up outside
+      a demo.
+    </p>
+
+    <p class="pull-quote">
+      I'd rather understand <span>why</span> something works than memorize what it does.
+    </p>
+
+    <div class="divider divider--label"><h2>Skills</h2></div>
+    <dl class="ledger">
+      <div class="ledger__row">
+        <dt>Languages</dt>
+        <dd>JavaScript, Node.js, Python, HTML/CSS, SQL</dd>
+      </div>
+      <div class="ledger__row">
+        <dt>Tools &amp; platforms</dt>
+        <dd>Express, Git/GitHub, Vercel, VS Code</dd>
+      </div>
+      <div class="ledger__row">
+        <dt>Hardware &amp; field work</dt>
+        <dd>Diagnostics, soldering/rework, cabling &amp; networking, multimeter/oscilloscope</dd>
+      </div>
+      <div class="ledger__row">
+        <dt>Working style</dt>
+        <dd>Root-cause debugging, documentation, on-site troubleshooting</dd>
+      </div>
+    </dl>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>
