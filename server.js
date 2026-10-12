@@ -13,8 +13,8 @@ const site = {
   role: "Junior Software Developer",
   email: "lontocivanwarren59@email.com",
   location: "Calabarzon, PH",
-  github: "https://github.com/yourhandle",
-  linkedin: "https://linkedin.com/in/yourhandle",
+  github: "https://github.com/IvanWarren2000059",
+  linkedin: "https://www.linkedin.com/in/ivan-warren-lontoc-aab413443/",
   cvDownloadUrl: "http://localhost:3000/assets/files/CV.pdf",
 };
 
